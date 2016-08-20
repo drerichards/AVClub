@@ -1,0 +1,167 @@
+/*section 1*/
+
+@media only screen and (min-width: 320px) {
+    html, body {
+        margin: 0;
+        position: relative;
+        font-size: 12px;
+        font-style: normal;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-family: "Calibri Light";
+        font-weight: lighter;
+        color: #333;
+    }
+    ul {
+        /*padding-left: 0;*/
+    }
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    a:active {
+        text-decoration: none;
+        color: black;
+    }
+    li {
+        list-style: none;
+    }
+    h5 {
+        font-weight: 600;
+        font-family: "Anke", sans-serif;
+        text-transform: uppercase;
+        font-size: 0.7em;
+        letter-spacing: 1px;
+    }
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .jumbotron {
+        background-color: white;
+        padding: 0;
+    }
+    .main_display {
+        background-image: url('../images/site/mainpic.jpg');
+        width: 100%;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 400px;
+    }
+    .bg-faded {
+        background-color: rgba(245, 239, 237, 0.85);
+    }
+    #exCollapsingNavbar2> ul> li {
+        margin-left: 0;
+    }
+    .nav-link {
+        font-family: "Neoteric";
+        padding: 10px;
+        font-size: 1.1em;
+    }
+    .nav-link:hover {
+        background-color: rgba(189, 191, 9, 0.5);
+        color: #fff;
+        margin-left: 1%;
+        transition: all 0.6s;
+    }
+    .display_text {
+        font-family: "Neoteric";
+        padding-top: 2%;
+        text-align: center;
+        color: #CDAD00;
+        text-shadow: 2px 2px white;
+    }
+    .display_text h1 {
+        margin: 0;
+        line-height: 0.5em;
+        font-size: 6em;
+    }
+    .display_text h3 {
+        font-size: 2.5em;
+    }
+    a .btn-enter {
+        margin-top: 4.75%;
+        background-color: transparent;
+        color: #2F4F4F;
+        transition: all 0.6s;
+        font-size: 1.05em;
+        box-shadow: 1px 1px 1px 1px #2F4F4F;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        border: 3px solid #F5EFED;
+        padding: 15px 5px;
+        text-decoration: none;
+    }
+    a .btn-enter:link, .btn-enter:visited, .btn-enter:hover, .btn-enter:active {
+        background-color: #F5EFED;
+        color: transparent;
+        text-shadow: 0.5px 0.5px #2F4F4F;
+        box-shadow: 3px 2px 0px 0px #2F4F4F;
+        opacity: 0.8;
+        text-decoration: none;
+        border-radius: 50px;
+        border-color: transparent;
+    }
+    .headerIconRow {
+        margin: 0 auto;
+    }
+    .mainIcons {
+        margin: 2% 6% 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    .mainIcons .col-xs-6 {
+        width: auto;
+    }
+    .mainIcons li {
+        width: 65px;
+        font-size: 3em;
+        text-align: center;
+        color: #fff;
+        padding: 0 1%;
+        text-shadow: 1px 4px #000;
+    }
+}
+@media only screen and (min-device-width: 768px) {
+    .main_display {
+        background-attachment: fixed;
+        background-position: top;
+        background-size: 1025px;
+    }
+    .nav-link {
+        padding: 15px;
+        font-size: 1.3em;
+    }
+    .display_text h1 {
+        font-size: 9em;
+    }
+    .display_text h3 {
+        font-size: 4em;
+    }
+    a .btn-enter {
+        display: none;
+    }
+}
