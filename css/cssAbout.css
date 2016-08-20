@@ -31,6 +31,7 @@
         font-size: 1.7em;
         border-radius: 50px;
         border: 1px solid #2292A4;
+        box-shadow: 1px 2px 15px #ccc;
         padding: 15px 15px;
     }
     .aboutRow> div:nth-child(1)> i {

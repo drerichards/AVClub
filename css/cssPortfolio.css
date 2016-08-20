@@ -55,13 +55,6 @@
         width: 315px;
         height: 175px;
     }
-    .crop {
-        width: 24.75%;
-        display: inline-block;
-        height: 350px;
-        overflow: hidden;
-        margin-top: -5px;
-    }
     .portfolioContainer .col-xs-12 {
         padding: 0;
     }
@@ -72,7 +65,7 @@
         width: 100%;
     }
     .caption-style-1 li {
-        background-image: url('../images/portfolio/club.jpg');
+        background-image: url('../images/portfolio/paradise.jpg');
         width: 100%;
         height: 250px;
         display: block;
@@ -88,7 +81,7 @@
         opacity: 1;
     }
     .caption {
-      width: 100%;
+        width: 100%;
         cursor: pointer;
         position: absolute;
         opacity: 0;
@@ -112,7 +105,9 @@
         width: 100%;
         height: 100%;
         text-align: center;
-        top: 50px;
+        top: 30px;
+        font-size: 1.25em;
+        padding: 0 6.5%;
     }
     .caption-text h1 {
         text-transform: uppercase;
@@ -120,8 +115,9 @@
         letter-spacing: 2px;
     }
     .caption-text i {
-        font-size: 3em;
+        font-size: 2em;
         color: #fff;
-padding: 0 7%;   }
+        padding: 0 10% 3%;
+    }
 }
 @media only screen and (min-device-width: 768px) {}

@@ -1,0 +1,91 @@
+@media only screen and (min-width: 320px) {
+    .servicesWrap {
+        width: 100%;
+        height: 100%;
+        text-align: right;
+        font-size: 1.4em;
+    }
+    .servicesContainer .col-xs-12:nth-child(1) {
+        padding: 0;
+    }
+    .servicesImg img {
+        width: 100%;
+        vertical-align: middle;
+    }
+    .servicesContainer .row {
+        padding: 0 5%;
+    }
+    .ceo p {
+        margin-top: 2%;
+        text-align: right;
+        font-family: "Anke", sans-serif;
+        text-transform: uppercase;
+        color: #A63446;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .serviceBullets {
+        width: 95%;
+        margin-left: -1%;
+        font-size: 1.12em;
+    }
+    .serviceBullets li {
+        padding: 0 1%;
+    }
+    .serviceBullets i {
+        font-size: 1.45em;
+        width: 28px;
+        text-align: center;
+    }
+    .serviceBullets h3 {
+        display: inline-block;
+        margin-top: 5%;
+        color: #18435A;
+        font-weight: 600;
+        font-family: "Anke", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.15em;
+    }
+    .bulletCollapse:hover {
+        background-color: rgba(150, 153, 0, .7);
+        color: #fff;
+        box-shadow: 1px 2px 20px #ccc;
+        text-shadow: 1px 0.5px #ccc;
+        -webkit-transition: all 0.45s ease-in-out;
+        -moz-transition: all 0.45s ease-in-out;
+        -o-transition: all 0.45s ease-in-out;
+        -ms-transition: all 0.45s ease-in-out;
+        transition: all 0.45s ease-in-out;
+    }
+    .serviceBullets .fa-caret-down {
+        margin-left: 2%;
+        font-size: 0.92em;
+    }
+    .waveBanner{
+      background-image: url('../images/site/waves.jpg');
+      width: 100%;
+      height: 175px;
+      display: block;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin: 4% 0;
+    }
+}
+@media only screen and (min-device-width: 768px) {
+    .serviceBullets {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .serviceBullets li {
+        padding: 0 1%;
+    }
+    .serviceBullets i {
+        font-size: 1.75em;
+        margin-right: 2%;
+        text-align: center;
+    }
+    .serviceBullets .fa-caret-down {
+        font-size: 1em;
+    }
+}

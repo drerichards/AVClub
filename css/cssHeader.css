@@ -77,6 +77,7 @@
         font-size: 1.1em;
     }
     .nav-link:hover {
+        box-shadow: 1px 2px 20px #ccc;
         background-color: rgba(189, 191, 9, 0.5);
         color: #fff;
         margin-left: 1%;
