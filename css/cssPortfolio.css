@@ -11,7 +11,7 @@
         letter-spacing: 1px;
     }
     .page_divide i {
-        font-size: 1.5em;
+        font-size: 1.2em;
         color: #969900;
     }
     h2 {
@@ -54,10 +54,10 @@
     .section3_tabs p{
       margin: 2% 0;
     }
-    .portfolioContainer .col-xs-6 img {
+    /*.portfolioContainer .col-xs-6 img {
         width: 315px;
-        height: 175px;
-    }
+        height: 100px;
+    }*/
     .portfolioContainer .col-xs-12 {
         padding: 0;
     }
@@ -70,7 +70,7 @@
     .caption-style-1 li {
         background-image: url('../images/portfolio/paradise.jpg');
         width: 100%;
-        height: 250px;
+        height: 200px;
         display: block;
         background-size: cover;
         background-repeat: no-repeat;
@@ -97,7 +97,7 @@
     .blur {
         background-color: rgba(0, 0, 0, 0.65);
         width: 600px;
-        height: 250px;
+        height: 200px;
         z-index: 5;
         position: absolute;
     }
@@ -108,13 +108,13 @@
         width: 100%;
         height: 100%;
         text-align: center;
-        top: 30px;
+        top: 10px;
         font-size: 1.25em;
         padding: 0 6.5%;
     }
     .caption-text h1 {
         text-transform: uppercase;
-        font-size: 1.75em;
+        font-size: 1.5em;
         letter-spacing: 2px;
     }
     .caption-text i {

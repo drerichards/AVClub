@@ -74,6 +74,9 @@
         width: 100%;
         border-radius: 0;
     }
+    .navbar-brand i {
+      font-size: 1.7em;
+    }
     /*.fixed-top-navbar{
         position: fixed;
         z-index: 1000;

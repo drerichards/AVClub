@@ -17,12 +17,15 @@
     }
     .heisen {
         background-image: url('../images/team/heisen.jpg');
+        background-position: top center;
     }
     .archer {
         background-image: url('../images/team/archer.jpg');
+        background-position: top center;
     }
     .knope {
         background-image: url('../images/team/knope.jpg');
+        background-position: top center;
     }
     .team_text {
         width: 100%;
