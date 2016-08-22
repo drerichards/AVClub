@@ -1,0 +1,80 @@
+@media only screen and (min-width: 320px) {
+    .contactContainer {
+        background-image: url('../images/site/palm.jpg');
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        padding-bottom: 5%;
+        margin-top: 3%;
+    }
+    .contactContainer .col-xs-12 {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .contactContainer .col-xs-8 {
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .contactIcons {
+        width: 100%;
+    }
+    .contactIcons ul {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contactIcons ul> div {
+        padding: 5% 1%;
+    }
+    .contactIcons i {
+        border-radius: 50px;
+        border: 1px solid gray;
+        padding: 15px 17.5px;
+        font-size: 1.7em;
+        color: #DAA520;
+    }
+    .contactIcons ul div:nth-child(3)> li> i {
+        padding: 15px 15px;
+    }
+    .contactIcons li {
+        list-style-type: none;
+    }
+    .contactContainer .form-control {
+        background-color: transparent;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 1px solid rgba(218, 165, 32, .7);
+    }
+    .contactContainer .emailMsg {
+        padding: 2.5% 4%;
+    }
+    .emailMsg button{
+      background-color: transparent;
+      text-transform: uppercase;
+      border-radius: 0;
+      color: #fff;
+      font-size: 1.05em;
+      letter-spacing: 1px;
+    }
+    .emailMsg a:hover{
+      background-color: rgba(0, 0, 0, 0.3);
+      transition: ease-out all 0.6s;
+    }
+    .emailMsg a{
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      float: right;
+    }
+}
+@media only screen and (min-device-width: 768px) {
+    .contactContainer {
+        padding: 1%;
+        font-size: 1.12em;
+        text-transform: uppercase;
+    }
+    .contactContainer .col-xs-12 {
+        border-bottom: 0px;
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}

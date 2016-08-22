@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/cssAbout.css">
     <link rel="stylesheet" href="css/cssPortfolio.css">
     <link rel="stylesheet" href="css/cssServices.css">
+    <link rel="stylesheet" href="css/cssTeam.css">
+    <link rel="stylesheet" href="css/cssContact.css">
 </head>
 
 <body>
@@ -21,12 +23,10 @@
         <div class="jumbotron">
             <div class="main_display">
                 <img class="avLogo" src="images/avLogo/avclub_logo.png" alt="" />
-                <nav class="navbar navbar-light bg-faded">
-                    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
-                        &#9776;
-                    </button>
+                <nav class="navbar navbar-light bg-faded fixed-top-navbar" role="navigation">
+                    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
                     <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-                        <a class="navbar-brand" href="#"></a>
+                        <a class="navbar-brand" href="#"><i class="fa fa-life-buoy" aria-hidden="true"></i></a>
                         <ul class="nav navbar-nav">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
@@ -41,13 +41,10 @@
                                 <a class="nav-link" href="#">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Team</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="#">Clients</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#">Team</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
@@ -61,7 +58,6 @@
                             <div class="display_text">
                                 <h3>We Deliver</h3>
                                 <h1><strong>Excellence</strong></h1>
-                                <!-- <p>Full Service Digital Agency</p> -->
                                 <a href="#">
                                     <button type="button" class="btn-enter"><strong>Enter</strong></button>
                                 </a>
@@ -75,18 +71,26 @@
     <!--Section 1-->
     <!--Section 2-->
     <div class="container-fluid aboutContainer">
-        <div class="clip_mask"><img src="images/avLogo/avClip-mobile.png" /></div>
+      <div class="row">
+        <div class="col-xs-1 col-offset-xs-1">
+          <div class="clip_mask"><img src="images/avLogo/avClip-mobile.png" /></div>
+        </div>
+        <div class="col-xs-10">
+
         <div class="section_properties">
             <h4 class="bold_title">Welcome to the <strong>A.V. Club </strong></h4>
             <p><em>Full Service Digital Agency</em></p>
             <div class="row aboutRow">
-                <div class="col-xs-4"><i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                <div class="col-xs-4">
+                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                     <h5>Custom Design</h5>
                 </div>
-                <div class="col-xs-4"><i class="fa fa-camera" aria-hidden="true"></i>
+                <div class="col-xs-4">
+                    <i class="fa fa-camera" aria-hidden="true"></i>
                     <h5>Photography</h5>
                 </div>
-                <div class="col-xs-4"><i class="fa fa-paint-brush" aria-hidden="true"></i>
+                <div class="col-xs-4">
+                    <i class="fa fa-paint-brush" aria-hidden="true"></i>
                     <h5>Concept Art</h5>
                 </div>
             </div>
@@ -97,13 +101,15 @@
                     ex quam eu erat.</p>
             </div>
         </div>
+      </div>
+      </div>
     </div>
     <!--Section 2-->
     <!--Section 3-->
     <div class="container-fluid">
         <div class="page_divide">
             <h5>Portfolio</h5>
-            <h2><i class="fa fa-code" aria-hidden="true"></i></h2>
+            <h2><i class="fa fa-life-buoy" aria-hidden="true"></i></h2>
         </div>
     </div>
 
@@ -206,8 +212,8 @@
     <!--Section 4-->
     <div class="container-fluid">
         <div class="page_divide">
-            <h5>Services</h5>
-            <h2><i class="fa fa-code" aria-hidden="true"></i></h2>
+            <h5>Our Services</h5>
+            <h2><i class="fa fa-life-buoy" aria-hidden="true"></i></h2>
         </div>
     </div>
     <div class="container-fluid servicesContainer">
@@ -218,13 +224,12 @@
             <div class="col-xs-12 col-sm-6">
                 <div class="servicesWrap">
                     <h4 class="bold_title">The Best Services &amp; Support</h4>
-
                     <div class="section_text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam enim augue, a fringilla lectus finibus at. Duis dignissim ligula lorem, eu porttitor massa cursus in. Cras ex elit, vestibulum vel ante a, pharetra lacinia
                             ex. Pellentesque semper et risus at congue. Aenean viverra scelerisque enim. Vestibulum pharetra ligula sit amet porta tincidunt. Donec dictum lorem sit amet lectus euismod sagittis. Proin id tellus id leo tincidunt finibus
                             eget ut purus.</p>
                         <div class="ceo">
-                            <p>Walter Heisenberg-White - <em><font color="gray">CEO/Founder</font></em></p>
+                            <p>Walter Heisenberg - <em><font color="gray">CEO</font></em></p>
                         </div>
                     </div>
                 </div>
@@ -244,19 +249,19 @@
                     <p id="bulletText1" class="collapse">Eum esse dignissimos mollitia non recusandae fugiat, omnis vel, placeat sit? Autem architecto vel ratione.</p>
                 </li>
                 <li class="col-xs-12 col-sm-4">
-                  <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText2">
-                    <i class="fa fa-cogs" aria-hidden="true"></i>
-                    <h3>Tool Settings</h3><i class="fa fa-caret-down" aria-hidden="true"></i>
-                    <hr>
-                  </div>
+                    <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText2">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                        <h3>Tool Settings</h3><i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <hr>
+                    </div>
                     <p id="bulletText2" class="collapse">Esse dignissimos mollitia non recusandae fugiat, omnis perferendis at vel, placeat sit?</p>
                 </li>
                 <li class="col-xs-12 col-sm-4">
-                  <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText3">
-                    <i class="fa fa-sliders" aria-hidden="true"></i>
-                    <h3>Flex Controls</h3><i class="fa fa-caret-down" aria-hidden="true"></i>
-                    <hr>
-                  </div>
+                    <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText3">
+                        <i class="fa fa-sliders" aria-hidden="true"></i>
+                        <h3>Flex Controls</h3><i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <hr>
+                    </div>
                     <p id="bulletText3" class="collapse">Lorem ipsum dolor sit. Autem architecto suscipit quia voluptate quibusdam quam vel ratione.</p>
                 </li>
             </ul>
@@ -266,44 +271,159 @@
         <div class="row">
             <ul>
                 <li class="col-xs-12 col-sm-4">
-                  <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText4">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <h3>User Friendly</h3><i class="fa fa-caret-down" aria-hidden="true"></i>
-                    <hr>
-                  </div>
+                    <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText4">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h3>User Friendly</h3><i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <hr>
+                    </div>
                     <p id="bulletText4" class="collapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum esse drecusandae fugiat, placeat sit? </p>
                 </li>
                 <li class="col-xs-12 col-sm-4">
-                  <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText5">
-                    <i class="fa fa-lock" aria-hidden="true"></i>
-                    <h3>Security </h3><i class="fa fa-caret-down" aria-hidden="true"></i>
-                    <hr>
-                  </div>
+                    <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText5">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <h3>Security </h3><i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <hr>
+                    </div>
                     <p id="bulletText5" class="collapse">Omnis perferendis at vel, placeat sit? Auibusdam quam vel ratione ignissimos mollitia non.</p>
                 </li>
                 <li class="col-xs-12 col-sm-4">
-                  <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText6">
-                    <i class="fa fa-cloud" aria-hidden="true"></i>
-                    <h3>Cloud Backup</h3><i class="fa fa-caret-down" aria-hidden="true"></i>
-                    <hr>
-                  </div>
+                    <div class="bulletCollapse" data-toggle="collapse" data-target="#bulletText6">
+                        <i class="fa fa-cloud" aria-hidden="true"></i>
+                        <h3>Cloud Backup</h3><i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <hr>
+                    </div>
                     <p id="bulletText6" class="collapse">Consectetur adipisicing elit. Autem architecto suscipit quia voluptate quibusdam quam vel ratione.</p>
                 </li>
             </ul>
         </div>
     </div>
 
-<div class="container-fluid waveBanner">
-</div>
+    <div class="container-fluid waveBanner">
+    </div>
 
     <!--Section 4-->
 
 
 
 
+    <div class="container-fluid">
+        <div class="page_divide">
+            <h5>Meet The Team</h5>
+            <h2><i class="fa fa-life-buoy" aria-hidden="true"></i></h2>
+        </div>
+    </div>
+    <div class="container-fluid teamContainer">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 heisen">
+          <div class="team_text">
+            <h3>Walter Heisenberg</h3>
+            <p>CEO/Co-Founder</p>
+          </div>
+            <div class="underline"></div>
+            <div class="well"></div>
+        </div>
+        <div class="col-xs-12 col-sm-4 archer">
+          <div class="team_text">
+            <h3>Sterling Archer</h3>
+            <p>Art Director/Co-Founder</p></div>
+            <div class="underline"></div>
+            <div class="well"></div>
+        </div>
+       <div class="col-xs-12 col-sm-4 knope">
+          <div class="team_text">
+            <h3>Leslie Knope</h3>
+            <p>Product Manager/Co-Founder</p>
+          </div>
+            <div class="underline"></div>
+            <div class="well"></div>
+        </div>
+    </div></div>
 
 
+    <div class="container-fluid">
+        <div class="page_divide">
+            <h5>Contact Us</h5>
+            <h2><i class="fa fa-life-buoy" aria-hidden="true"></i></h2>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid contactContainer">
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <div class="row contactIcons">
+                        <ul>
+                            <div class="col-xs-4 col-md-12">
+                                <li>
+                                  <a href="#" class="button hvr-grow">
+                                    <i class="fa fa-phone" aria-hidden="true"></i></a>
+                                    <p>
+                                        347-555-1985
+                                        <br>917-555-2000
+                                    </p>
+                                </li>
+                            </div>
+                            <div class="col-xs-4 col-md-12">
+                                <li>
+                                  <a href="#" class="button hvr-grow">
+                                  <i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                                    <p>
+                                        1 Water St
+                                        <br>Ste 101
+                                        <br>Brooklyn, NY 11201
+                                    </p>
+                                </li>
+                            </div>
+                            <div class="col-xs-4 col-md-12">
+                                <li>
+                                  <a href="#" class="button hvr-grow">
+                                  <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                    <p>
+                                        me@avclub.com
+                                        <br>you@avclub.com
+                                    </p>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-8 col-md-6">
+                    <div class="emailMsg">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="name" class="form-control" id="name">
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-xs-offset-6">
+                                    <div class="form-group">
+                                        <label for="subject">Subject</label>
+                                        <input type="subject" class="form-control" id="subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <input type="message" class="form-control" id="message">
+                            </div>
+                            <a href="#" class="button hvr-icon-float-away"><button type="submit" class="btn btn-default">Send</button></a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-3">
+                    <div class="socialMedia">Social</div>
 
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

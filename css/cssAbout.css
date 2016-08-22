@@ -13,7 +13,7 @@
         font-size: 1.25em;
         font-weight: 600;
         text-transform: uppercase;
-        font-family: "Anke", sans-serif;
+        font-family: "Quicksand", sans-serif;
         letter-spacing: 1px;
         color: #8B6508;
     }
@@ -34,6 +34,9 @@
         box-shadow: 1px 2px 15px #ccc;
         padding: 15px 15px;
     }
+    .aboutRow h5{
+      margin-top: 2.5%;
+    }
     .aboutRow> div:nth-child(1)> i {
         padding: 15px 20px;
     }
@@ -47,7 +50,7 @@
 @media only screen and (min-device-width: 768px) {
     .clip_mask {
         display: inline;
-        padding: 0 0 0 3%;
+        padding: 0 0 0 100%;
     }
     .section_properties {
         width: 85%;

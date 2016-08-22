@@ -2,7 +2,7 @@
     .page_divide {
         margin-top: 40px;
         text-align: center;
-        font-family: "Anke", sans-serif;
+        font-family: "Quicksand", sans-serif;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 2em;
@@ -43,13 +43,16 @@
     .section3_tabs .col-xs-3 {
         padding: 1%;
         font-weight: 400;
-        font-family: "Anke", sans-serif;
+        font-family: "Quicksand", sans-serif;
         text-transform: uppercase;
         list-style-type: none;
         display: inline-block;
     }
     .section3_tabs a {
         width: 100%;
+    }
+    .section3_tabs p{
+      margin: 2% 0;
     }
     .portfolioContainer .col-xs-6 img {
         width: 315px;
