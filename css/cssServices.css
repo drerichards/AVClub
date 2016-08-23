@@ -18,6 +18,10 @@
         font-size: 1.5em;
         margin-top: 2%;
     }
+    .services_text{
+      text-align: justify;
+      font-size: 1.15em;
+    }
     .ceo p {
         margin-top: 2%;
         text-align: right;
@@ -30,7 +34,7 @@
     .serviceBullets {
         width: 95%;
         margin-left: -1%;
-        font-size: 1em;
+        font-size: 1.15em;
     }
     .serviceBullets li {
         padding: 0 1%;
@@ -78,6 +82,9 @@
     }
 }
 @media only screen and (min-device-width: 768px) {
+  .services_text{
+    font-size: 1.3em;
+  }
     .serviceBullets {
         font-size: 1.2em;
         text-align: center;
