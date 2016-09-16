@@ -28,7 +28,7 @@
         margin: 0 auto;
         text-align: center;
     }
-    .contactIcons ul> div {
+    .contactIcons ul>div {
         padding: 5% 1%;
     }
     .contactIcons i {
@@ -38,7 +38,7 @@
         font-size: 1.7em;
         color: #DAA520;
     }
-    .contactIcons ul div:nth-child(3)> li> i {
+    .contactIcons ul div:nth-child(3)>li>i {
         padding: 15px 15px;
     }
     .contactIcons li {
@@ -148,19 +148,22 @@
         font-size: 1.12em;
         text-transform: uppercase;
     }
-    .fullSvcTag{
-      text-transform: capitalize;
-      letter-spacing: 0.5px;
+    .fullSvcTag {
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
     }
     .contactContainer .col-xs-12 {
         border-bottom: 0px;
         border-right: 1px solid rgba(255, 255, 255, 0.2);
     }
-    .contactContainer .emailMsg, .linksSection{
-      padding: 15% 4%;
+    .contactContainer .emailMsg, .linksSection {
+        padding: 15% 4%;
     }
-    .socialMedia li a i{
-      font-size: 2.2em;
-      width: 25px;
+    .socialMedia li a i {
+        font-size: 2.2em;
+        width: 25px;
     }
+}
+@media only screen and (min-device-width: 1200px) {
+    
 }

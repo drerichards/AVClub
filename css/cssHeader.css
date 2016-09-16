@@ -60,12 +60,12 @@
         background-size: 1470px;
         background-repeat: no-repeat;
         background-position: top;
-        min-height: 500px;
+        min-height: 450px;
     }
     .bg-faded {
         background-color: rgba(245, 239, 237, 0.95);
     }
-    #exCollapsingNavbar2> ul> li {
+    #exCollapsingNavbar2>ul>li {
         margin-left: 0;
     }
     .navbar {
@@ -73,9 +73,10 @@
         z-index: 26;
         width: 100%;
         border-radius: 0;
+        top: 0;
     }
     .navbar-brand i {
-      font-size: 1.7em;
+        font-size: 1.7em;
     }
     /*.fixed-top-navbar{
         position: fixed;
@@ -97,15 +98,19 @@
         margin-left: 1%;
         transition: all 0.6s;
     }
+    .headerRow img {
+        margin-top: 3%;
+    }
     .displayContainer {
-        margin-top: 35px;
+        text-align: center;
+        margin-top: 40px;
     }
     .display_text {
         font-family: "Neoteric";
-        padding-top: 2%;
         text-align: center;
-        color: #CDAD00;
+        color: #695800;
         text-shadow: 2px 2px white;
+        background-color: rgba(255, 255, 255, 0.8);
     }
     .display_text h1 {
         margin: 0;
@@ -113,7 +118,8 @@
         font-size: 6em;
     }
     .display_text h3 {
-        font-size: 2.5em;
+        font-size: 1.5em;
+        letter-spacing: 5px;
     }
     a .btn-enter {
         margin-top: 4.75%;
@@ -141,6 +147,9 @@
     .headerIconRow {
         margin: 0 auto;
     }
+    .headerRow .col-xs-12:nth-child(2) {
+        height: 200px;
+    }
     .mainIcons {
         margin: 2% 6% 0;
         width: 100%;
@@ -161,6 +170,31 @@
         padding: 0 1%;
         text-shadow: 1px 4px #000;
     }
+    .infoBox {
+        height: 100%;
+        width: 95%;
+        margin: 5% auto 0;
+    }
+    .infoBox .col-xs-4:nth-child(odd) {
+        height: 75%;
+        padding: 0.5%;
+    }
+    .infoBox .col-xs-4:nth-child(even) {
+        height: 100%;
+        padding: 0.5%;
+    }
+    .infoBox .col-xs-4 a {
+        background-color: rgb(255, 255, 255);
+        margin: 0 2%;
+        height: 100%;
+        width: 100%;
+    }
+    .displayContainer a i {
+        color: #fff;
+        font-size: 6em;
+        margin-top: 15%;
+        text-shadow: 4px 3px #000;
+    }
 }
 @media only screen and (min-device-width: 768px) {
     .main_display {
@@ -176,9 +210,51 @@
         font-size: 9em;
     }
     .display_text h3 {
-        font-size: 4em;
+        font-size: 2.5em;
+        letter-spacing: 7px;
     }
     a .btn-enter {
         display: none;
     }
+    .infoBox {
+        height: 250px;
+        width: 80%;
+        margin: 5% auto 0;
+    }
+    .infoBox .col-sm-3 {
+        height: 90%;
+        padding: 0.5%;
+    }
+    .displayContainer a i {
+      display: none;
+    }
+}
+@media only screen and (min-device-width: 1200px) {
+    .main_display {
+        min-height: 75vh;
+        margin: 0 auto;
+        background-size: cover;
+    }
+    .nav-link {
+        font-size: 1.45em;
+        /*padding: 60px;*/
+    }
+    .headerRow img {
+        width: 20%;
+        margin-top: 3%;
+    }
+    .infoBox {
+        height: 400px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .infoBox .col-sm-3 {
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 90%;
+        width: 15%;
+        margin: 0 2%;
+    }
+    .displayContainer a i {
+    display: block;
+  }
 }

@@ -40,8 +40,14 @@
     .clientContainer img {
         height: 200px;
         width: 230px;
+        margin-bottom: 4%;
     }
     .clientContainer .row:nth-child(odd){
-      padding: 0 15%;
+      padding: 1% 15%;
+    }
+}
+@media only screen and (min-device-width: 1200px) {
+    .clientContainer{
+      width: 70%;
     }
 }
