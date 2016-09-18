@@ -79,6 +79,22 @@
         background-position: center center;
         margin: 4% 0;
         box-shadow: 1px 2px 20px #aaa;
+        text-align: center;
+    }
+    .waveBanner .row{
+      color: white;
+      font-family: serif;
+      text-shadow: 2px 1.5px #000;
+      font-style: italic;
+      padding: 0 4%;
+    }
+    .waveCount span{
+      font-size: 3.5em;
+    }
+
+    .waveCount p{
+      font-size: 1.25em;
+      letter-spacing: 1px;
     }
 }
 @media only screen and (min-device-width: 768px) {
@@ -103,6 +119,18 @@
     .serviceBullets .fa-caret-down {
         font-size: 1em;
     }
+    .waveBanner .row{
+
+      padding: 4%;
+    }
+    .waveCount span{
+      font-size: 4.5em;
+    }
+
+    .waveCount p{
+      font-size: 1.5em;
+      letter-spacing: 1px;
+    }
 }
 @media only screen and (min-device-width: 1200px) {
     .servicesContainer {
@@ -113,5 +141,17 @@
     }
     .bulletContainer {
         width: 65%;
+    }
+    .waveBanner .row{
+
+      padding: 2% 15%;
+    }
+    .waveCount span{
+      font-size: 5em;
+    }
+
+    .waveCount p{
+      font-size: 1.75em;
+      letter-spacing: 1px;
     }
 }
