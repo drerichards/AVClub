@@ -121,6 +121,7 @@
   font-family: FontAwesome;
 }
 .hvr-icon-float-away:after {
+  margin: -35px 0px;
   opacity: 0;
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
