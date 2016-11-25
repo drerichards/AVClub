@@ -81,34 +81,34 @@ function changeFolioPics() {
 };
 
 function waveCounter() {
-  $('.count').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 4000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
+    $('.count').each(function() {
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 6500,
+            easing: 'swing',
+            step: function(now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
     });
-});
 }
 
 function clientQuote() {
-  $('.zooey span').mouseover(function(e) {
-    e.preventDefault();
-    $('.clientQuote').html('\"Lorem ipsum dolor sit amet, consectetur adipisicing elit!\"');
-  });
-  $('.power span').mouseover(function(e) {
-    e.preventDefault();
-    $('.clientQuote').html('\"Fusce hendrerit tristique ante, eget sagittis magna commodo ut!\"');
-  });
-  $('.jackie span').mouseover(function(e) {
-    e.preventDefault();
-    $('.clientQuote').html('\"Vestibulum pharetra amet porta tincidunt. Donec dictum lorem sit!\"');
-  });
-  $('.ava span').mouseover(function(e) {
-    e.preventDefault();
-    $('.clientQuote').html('\"Fusce cursus molestie risus eu finibus. Quisque dictum tellus!\"');
-  });
+    $('.zooey span').mouseover(function(e) {
+        e.preventDefault();
+        $('.clientQuote').html('\"Lorem ipsum dolor sit amet, consectetur adipisicing elit!\"');
+    });
+    $('.power span').mouseover(function(e) {
+        e.preventDefault();
+        $('.clientQuote').html('\"Fusce hendrerit tristique ante, eget sagittis magna commodo ut!\"');
+    });
+    $('.jackie span').mouseover(function(e) {
+        e.preventDefault();
+        $('.clientQuote').html('\"Vestibulum pharetra amet porta tincidunt. Donec dictum lorem sit!\"');
+    });
+    $('.ava span').mouseover(function(e) {
+        e.preventDefault();
+        $('.clientQuote').html('\"Fusce cursus molestie risus eu finibus. Quisque dictum tellus!\"');
+    });
 }

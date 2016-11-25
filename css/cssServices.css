@@ -80,23 +80,24 @@
         margin: 4% 0;
         box-shadow: 1px 2px 20px #aaa;
         text-align: center;
+        overflow: visible;
     }
-    .waveBanner .row{
-      color: white;
-      font-family: serif;
-      text-shadow: 2px 1.5px #000;
-      font-style: italic;
-      padding: 0 4%;
+    .waveBanner .row {
+        color: white;
+        font-family: serif;
+        text-shadow: 2px 1.5px #000;
+        font-style: italic;
+        padding: 0 4%;
     }
-    .waveCount span{
-      font-size: 3.5em;
+    .waveCount span {
+        font-size: 3.5em;
     }
-
-    .waveCount p{
-      font-size: 1.25em;
-      letter-spacing: 1px;
+    .waveCount p {
+        font-size: 1.25em;
+        letter-spacing: 1px;
     }
 }
+
 @media only screen and (min-device-width: 768px) {
     .services_text {
         font-size: 1.3em;
@@ -119,19 +120,18 @@
     .serviceBullets .fa-caret-down {
         font-size: 1em;
     }
-    .waveBanner .row{
-
-      padding: 4%;
+    .waveBanner .row {
+        padding: 4%;
     }
-    .waveCount span{
-      font-size: 4.5em;
+    .waveCount span {
+        font-size: 4.5em;
     }
-
-    .waveCount p{
-      font-size: 1.5em;
-      letter-spacing: 1px;
+    .waveCount p {
+        font-size: 1.5em;
+        letter-spacing: 1px;
     }
 }
+
 @media only screen and (min-device-width: 1200px) {
     .servicesContainer {
         width: 72%;
@@ -142,16 +142,14 @@
     .bulletContainer {
         width: 65%;
     }
-    .waveBanner .row{
-
-      padding: 2% 15%;
+    .waveBanner .row {
+        padding: 1.65% 15%;
     }
-    .waveCount span{
-      font-size: 5em;
+    .waveCount span {
+        font-size: 5em;
     }
-
-    .waveCount p{
-      font-size: 1.75em;
-      letter-spacing: 1px;
+    .waveCount p {
+        font-size: 1.75em;
+        letter-spacing: 1px;
     }
 }
