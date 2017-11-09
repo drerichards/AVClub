@@ -1,6 +1,6 @@
 # AVClub
 # AVClub
-https://drerichards.github.io/AVClub/
+https://drerichards.github.io/avclub/
 
 - HTML
 - CSS
