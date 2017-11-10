@@ -52,7 +52,6 @@ const showFolioPics = tabClicked => {
 }
 const changeFolioPics = () => {
     showFolioPics(branding)
-
     $('#branding').click((e) => {
         e.preventDefault()
         showFolioPics(branding)
