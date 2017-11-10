@@ -5,8 +5,11 @@ const scrollToSection = () => {
         $('.nav li:nth-child(1)').removeClass('active')
         $('.nav li:nth-child(2)').removeClass('active')
         $('.nav-item a').removeClass('active')
-        
         $(e.target).addClass('active')
+        $('.hvr-sink i').removeClass('active')
+        if (sectionID == 'aboutArrowSection'){
+            sectionID = 'aboutSection'
+        }
         if (sectionID == 'aboutSection') {
             $('.hvr-sink i').removeClass('active')
             $('.nav li:nth-child(2)').addClass('active')

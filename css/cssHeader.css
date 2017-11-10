@@ -97,6 +97,7 @@
     }
     .headerRow img {
         margin-top: 3%;
+        width: 55%;
     }
     .displayContainer {
         text-align: center;
@@ -201,6 +202,13 @@
     }
 }
 
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .headerRow img {
+        width: 30%;
+        margin: 3% 0 1%;
+    }
+}
+
 @media only screen and (min-device-width: 768px) {
     .main_display {
         background-position: top;
@@ -220,6 +228,9 @@
     }
     a .btn-enter {
         display: none;
+    }
+    .headerRow img {
+        width: 25%;
     }
     .infoBox {
         height: 250px;
@@ -247,14 +258,14 @@
         background-size: cover;
     }
     .nav-link {
-        font-size: 1.7em;
+        font-size: 1.35em;
         padding: 60px;
-        text-shadow: 1px 1px 0px #aaa;
+        text-shadow: 1px 0px 0px #aaa;
         letter-spacing: 3px;
     }
     .headerRow img {
         width: 20%;
-        margin-top: 3%;
+        margin: 3% 0 1%;
     }
     .infoBox {
         height: 400px;
